@@ -417,3 +417,4 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+/src/Services/Ordering/Ordering.API/Properties/launchSettings.json
