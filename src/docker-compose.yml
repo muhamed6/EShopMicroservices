@@ -1,9 +1,5 @@
 services:
-  # catalog.api:
-  #   image: ${DOCKER_REGISTRY-}catalogapi
-  #   build:
-  #     context: .
-  #     dockerfile: Catalog.API/Dockerfile
+
   catalogdb:
     image: postgres
 
@@ -15,6 +11,9 @@ services:
 
   orderdb:
     image: mcr.microsoft.com/mssql/server
+
+  messagebroker:
+     image: rabbitmq:management
 
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
