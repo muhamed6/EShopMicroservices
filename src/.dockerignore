@@ -11,6 +11,7 @@
 **/*.*proj.user
 **/*.dbmdl
 **/*.jfm
+**/appsettings.Local.json
 **/azds.yaml
 **/bin
 **/charts
