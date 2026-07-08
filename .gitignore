@@ -310,6 +310,9 @@ node_modules/
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
 
+# Local app settings
+appsettings.Local.json
+
 # Visual Studio 6 auto-generated project file (contains which files were open etc.)
 *.vbp
 
